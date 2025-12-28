@@ -12,6 +12,7 @@ Route::post('/trains', [TrainsController::class, 'store']);
 Route::post('/wagons', [WagonsController::class, 'store']);
 Route::post('/cargos', [CargosController::class, 'store']);
 
+
 Route::post('/reservations', [ReservationsController::class, 'store']);
 
 Route::post('/wallets/{id}/credit', [WalletsController::class, 'credit']);
