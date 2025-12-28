@@ -16,6 +16,7 @@ Route::post('/cargos', [CargosController::class, 'store']);
 
 Route::post('/reservations', [ReservationsController::class, 'store']);
 
+//افزایش و کاهش اعتبار
 Route::post('/wallets/{id}/credit', [WalletsController::class, 'credit']);
 Route::post('/wallets/{id}/debit', [WalletsController::class, 'debit']);
 
